@@ -4,7 +4,7 @@ import { IoClose } from "react-icons/io5";
 
 function SignIn({ setShowPopup, isSignUp, setIsSignUp }) {
   return (
-    <div className="fixed inset-0 flex items-center justify-center backdrop-blur-md bg-black/30">
+    <div className="fixed inset-0 flex items-center justify-center z-999 backdrop-blur-md bg-black/30">
       <div className="relative bg-white p-6 rounded-lg shadow-lg w-96">
         {/* Close Button */}
         <button
